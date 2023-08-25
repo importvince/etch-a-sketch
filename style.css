@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto+Condensed:wght@700&display=swap');
+
+/* default style fix */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: light;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* end of default styles */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a83ffaa;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#change-size, 
+#rainbow,
+#shade {
+    background-color: ghostwhite;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    box-shadow: 
+    -2px 2px 10px 2px #2A83FFBB,
+    1px -1px 2px 1px rgba(0, 0, 0, 0.3) inset,
+    -1px 1px 2px 1px rgba(0, 0, 0, 0.3) inset;
+    width: 200px;
+    font-size: 28px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}
+
+#change-size:hover,
+#rainbow:hover,
+#shade:hover {
+
+    box-shadow: 
+    -2px 2px 10px 2px #2A83FFBB,
+    1px -1px 2px 1px rgba(164, 164, 164, 0.3) inset,
+    -1px 1px 2px 1px rgba(164, 164, 164, 0.3) inset;
+    transform: scale(0.95);
+    transition-timing-function: ease-in-out;
+}
+
+#etch-a-sketch {
+    margin-top: 1rem;
+    padding: 2rem 2rem 4rem 2rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff1f1f;
+    box-shadow: 
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 750px;
+}
+
+
+#tile-container {
+    display: grid;
+    width: 600px; 
+    height: 600px;
+    background-color: ghostwhite;
+    border-style: solid;
+    border-radius: 1%;
+}
+
+h1 {
+    font-family: 'Arizonia', cursive;
+    font-size: 50px;
+    color: rgb(255, 194, 41);
+    margin-top: -6px;
+}
+
+.headings {
+    display: flex;
+    align-items: center;
+}
+
+.headings > p {
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: rgb(255, 194, 41);
+    margin-top: -8px;
+}
+
+#magic {
+    margin-right: 50px;
+    font-style: italic;
+}
+
+#screen {
+    margin-left: 50px;
+    font-style: italic;
+}
+
+.credit {
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: ghostwhite;
+    display: flex;
+    gap: 15px;
+}
+
+#github,
+#repo {
+    text-decoration: none;
+}
+
+#github:hover,
+#repo:hover {
+    color: ghostwhite;
+}
