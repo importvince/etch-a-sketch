@@ -1,4 +1,4 @@
-//RAINBOX WORKING. STILL NEED SHADED. 
+//RAINBOW WORKING.
 
 const changeSize = document.getElementById('change-size');
 const rainbow =  document.getElementById('rainbow');

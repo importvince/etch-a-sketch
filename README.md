@@ -60,5 +60,5 @@ This was my first time back after a long pause due to starting a new job earlier
 
 ## Acknowledgments
 
-Thank you to my girldfriend for inspiring me to pick this skill back up. 
+Thank you to my girlfriend for inspiring me to pick this skill back up. 
 
